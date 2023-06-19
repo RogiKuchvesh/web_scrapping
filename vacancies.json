@@ -1,12 +1,26 @@
 [
     {
+        "link": "https://spb.hh.ru/vacancy/82128820?from=vacancy_search_list&query=python",
+        "salary_range": "от 60 000 руб.",
+        "company": "ООО Виста",
+        "city": "Санкт-Петербург"
+    },
+    {
         "link": "https://spb.hh.ru/vacancy/81442089?from=vacancy_search_list&query=python",
+        "salary_range": "150 000 – 200 000 руб.",
         "company": "B.ART",
         "city": "Москва"
     },
     {
-        "link": "https://spb.hh.ru/vacancy/81542736?from=vacancy_search_list&query=python",
-        "company": "ИНСКОМ",
-        "city": "Москва, Нагатинская"
+        "link": "https://spb.hh.ru/vacancy/81974265?from=vacancy_search_list&query=python",
+        "salary_range": "180 000 – 240 000 руб.",
+        "company": "ООО Корпорация ЗНАК",
+        "city": "Москва, Савёловская"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/82094039?from=vacancy_search_list&query=python",
+        "salary_range": "230 000 – 300 000 руб.",
+        "company": "ООО АйТиКвик",
+        "city": "Москва"
     }
 ]

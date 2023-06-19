@@ -24,7 +24,10 @@ for vacancy_about in vacancy_list_pars_all:
     city_tag = vacancy_about.find('div', attrs={'data-qa': 'vacancy-serp__vacancy-address', 'class': 'bloko-text'})
     city = city_tag.text
     salary_range_tag = vacancy_about.find('span', attrs={'data-qa': 'vacancy-serp__vacancy-compensation', 'class': 'bloko-header-section-3'})
-    salary_range = salary_range_tag.text
+    if salary_range_tag is None:
+        salary_range = ""
+    else:
+        salary_range = salary_range_tag.text
     
     full_vacancy_html = requests.get(link, headers=headers_data).text
     full_vacancy_soup = bs4.BeautifulSoup(full_vacancy_html, features='lxml')
